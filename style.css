@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'Ubuntu';
+src: url(Ubuntu-Regular.ttf);
+}
+* {
+    font-family: Ubuntu;
+}
+body{
+    background-color:black !important;
+    color: brown !important;
+    text-align: center !important;
+}
+h1{
+    text-align: center !important;
+    font-weight: bold !important;
+}
+.h2{
+    background-color:rgb(212, 211, 211) ; 
+    -moz-box-shadow: inset 0 0 10px #777777;
+-webkit-box-shadow: inset 0 0 10px #777777;
+box-shadow: inset 0 0 10px #777777;
+border: 5px solid #cccccc;
+padding: 20px;
+border-radius: 100px;
+}
+.btn{
+    background-color: brown !important;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    color: black !important;
+    font-weight: bold !important;
+    -moz-box-shadow: 0 0 10px #777777;
+-webkit-box-shadow: 0 0 10px #777777;
+box-shadow: 0 0 10px #777777;
+border: 5px solid #cccccc;
+padding: 20px;
+
+} 
+
+
+.btn1{
+    background-color: yellow !important;
+ 
+}
+.btn2{
+    background-color: greenyellow !important;
+}
+.card{
+    width: 500px !important;
+    text-align: center !important;
+    background-color: black !important;
+ 
+margin: 250px 250px 250px 400px;
+}
+.copyright{
+    color: rgb(212, 211, 211) ; 
+}

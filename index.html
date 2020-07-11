@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1> <i class="fa fa-clock-o" aria-hidden="true"></i> Stop Watch <i class="fa fa-clock-o" aria-hidden="true"></i></h1>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="h2" id="min">0 </h2> <h2>Minutes</h2>
+          </div>
+          <div class="col-sm">
+            <h2 class="h2" id="sec">0 </h2> <h2>Seconds</h2>
+          </div>
+          <div class="col-sm">
+            <h2 class="h2" id="msec">0 </h2> <h2>Miliseconds</h2>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <br>
+    
+       
+       
+
+        
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button id="start" onclick="start(),disableBtn()"  type="button" class="btn  btn-secondary">Start</button>
+        <button id="stop" onclick="stop(), enableBtn()"  type="button" class="btn btn1 btn-secondary">Stop</button>
+        <button id="reset" onclick="reset()"  type="button" class="btn btn2 btn-secondary">Reset</button>
+      </div> 
+
+      <div class="copyright"> 
+        Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020 SMIT Syed Ahmed Ali
+      </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
